@@ -74,42 +74,44 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wjs-Km-sZT">
                                         <rect key="frame" x="0.0" y="0.0" width="51" height="30"/>
                                         <state key="normal" title="Red"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="tag">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="redKey:" destination="wBb-Vt-e6R" eventType="touchUpInside" id="naL-0c-1xt"/>
+                                            <action selector="keys:" destination="wBb-Vt-e6R" eventType="touchUpInside" id="naL-0c-1xt"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHa-hn-tq0">
                                         <rect key="frame" x="0.0" y="173" width="51" height="30"/>
                                         <state key="normal" title="Green"/>
                                         <connections>
-                                            <action selector="greenKey:" destination="wBb-Vt-e6R" eventType="touchUpInside" id="1vP-C3-OSC"/>
+                                            <action selector="keys:" destination="wBb-Vt-e6R" eventType="touchUpInside" id="y8f-Wd-vKn"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xf4-yU-Zja">
                                         <rect key="frame" x="0.0" y="346" width="51" height="30"/>
                                         <state key="normal" title="Yellow"/>
                                         <connections>
-                                            <action selector="yellowKey:" destination="wBb-Vt-e6R" eventType="touchUpInside" id="WMd-dT-WdN"/>
+                                            <action selector="keys:" destination="wBb-Vt-e6R" eventType="touchUpInside" id="ssQ-jj-Teo"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNg-2u-yjR">
                                         <rect key="frame" x="0.0" y="519" width="51" height="30"/>
                                         <state key="normal" title="Orange"/>
                                         <connections>
-                                            <action selector="orangeKey:" destination="wBb-Vt-e6R" eventType="touchUpInside" id="FoC-eb-dje"/>
+                                            <action selector="keys:" destination="wBb-Vt-e6R" eventType="touchUpInside" id="MPO-k0-zCF"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNP-P2-FIk">
                                         <rect key="frame" x="0.0" y="692" width="51" height="30"/>
                                         <state key="normal" title="Black"/>
                                         <connections>
-                                            <action selector="blackKey:" destination="wBb-Vt-e6R" eventType="touchUpInside" id="UWf-fr-H4T"/>
+                                            <action selector="keys:" destination="wBb-Vt-e6R" eventType="touchUpInside" id="MxO-fX-5D5"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="vXk-wL-Fg2"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rSi-vo-fjR"/>
